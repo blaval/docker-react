@@ -21,7 +21,7 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
-          application_name: docker-react # to update
+          application_name: docker-react # to update 
           environment_name: Dockergh-env # to update
           existing_bucket_name: elasticbeanstalk-us-east-1-923445559289 # to update
           region: us-east-1 # to update
